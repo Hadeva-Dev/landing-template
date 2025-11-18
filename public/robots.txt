@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and internal paths
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /_next/
+
+# Sitemap (update with your production domain)
+Sitemap: https://yourdomain.com/sitemap.xml
